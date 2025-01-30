@@ -11,7 +11,7 @@ load_dotenv()
 
 MODEL_SELECT_TIMEOUT = 60 * 5
 
-VERTEX_PROJECT_ID = os.getenv("GOOGLE_CLOUD_API_KEY")
+VERTEX_PROJECT_ID = os.getenv("VERTEX_PROJECT_ID")
 
 class PromptView(View):
     def __init__(self, user_id: int):

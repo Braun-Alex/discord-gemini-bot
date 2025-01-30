@@ -1,7 +1,7 @@
 from vertexai.generative_models import ChatSession
 import discord
 from discord.ui import View
-from modals.file_upload_model import FileUploadModal
+from modals.file_upload_modal import FileUploadModal
 from modals.prompt_modal import PromptModal
 
 CHAT_TIMEOUT_SECONDS = 60 * 60 * 24
